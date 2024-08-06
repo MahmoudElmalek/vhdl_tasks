@@ -1,0 +1,58 @@
+$date
+  Sat Dec 24 00:39:10 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$var reg 2 ! sel[1:0] $end
+$var reg 1 " a $end
+$var reg 1 # b $end
+$var reg 1 $ c $end
+$var reg 1 % d $end
+$var reg 1 & o $end
+$scope module tree $end
+$var reg 2 ' sel[1:0] $end
+$var reg 1 ( a $end
+$var reg 1 ) b $end
+$var reg 1 * c $end
+$var reg 1 + d $end
+$var reg 1 , o $end
+$upscope $end
+$enddefinitions $end
+#0
+b00 !
+0"
+0#
+0$
+1%
+0&
+b00 '
+0(
+0)
+0*
+1+
+0,
+#1000000
+b01 !
+b01 '
+#2000000
+b10 !
+b10 '
+#3000000
+b11 !
+1&
+b11 '
+1,
+#4000000
+b00 !
+1#
+0%
+0&
+b00 '
+1)
+0+
+0,
+#5000000
